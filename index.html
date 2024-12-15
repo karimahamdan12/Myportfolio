@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>By Karima Hamdan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+</head>
+
+<body>
+  <div class="section" id="section1">
+    <div class="introduction">
+        <img src="images/anime_pic.jpg" class="anime_pic" alt="my pic if i was an anime" loading="lazy" >
+        <img src="images/butterfly.png" alt="" class="butterfly" loading="lazy" >
+        <div class="navbar">
+            <span data-target="About_me_section">About</span>
+            <span data-target="works">Works</span>
+            <span data-target="PENWORKS">Motivation</span>
+            <span data-target="contact">Contact</span>
+        </div>
+        <div class="what_i_do">
+    Beginner full-stack developer passionate about front-end, back-end, and building secure applications.
+        </div>
+        <span style="color:444340" class="greet_visitor"></span>
+    </div>
+  </div>   
+    <div class="section" id="section2">
+        <div class="pen">
+       <img src="images/pen_cover.png"
+                alt="" class="pen_cover" loading="lazy" >
+        <img src="images/pen_body.png"
+                alt="" class="pen_inner" loading="lazy" >
+              
+        </div>
+    </div>
+    <div class="section" id="section3" >
+  <div class="text_about_me" id="About_me_section">
+<!-- <svg width="70" height="70" viewBox="0 0 610 367" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M319.5 222C319.5 222 323.525 244.687 333.68 254.116C345.036 264.661 372 266 372 266C372 266 345.036 267.339 333.68 277.884C323.525 287.313 319.5 310 319.5 310C319.5 310 315.475 287.313 305.32 277.884C293.964 267.339 267 266 267 266C267 266 293.964 264.661 305.32 254.116C315.475 244.687 319.5 222 319.5 222Z"
+        fill="#FFC700" class="small_star" />
+    <path
+        d="M240.5 115C240.5 115 246.518 150.319 261.702 164.999C278.682 181.415 319 183.5 319 183.5C319 183.5 278.682 185.585 261.702 202.001C246.518 216.681 240.5 252 240.5 252C240.5 252 234.482 216.681 219.298 202.001C202.318 185.585 162 183.5 162 183.5C162 183.5 202.318 181.415 219.298 164.999C234.482 150.319 240.5 115 240.5 115Z"
+        fill="#FFC700" class="big_star"/>
+</svg> -->
+<span >
+    Hi there, I'm Karima Hamdan, a full-stack web developer with a huge love for front-end development. I'm a 22-year-old
+    introvert who loves building cool things with code. If I were a Harry Potter character, I’d definitely be Harry
+    himself—always on an unexpected adventure!
+    
+    Honestly, if you’d met me 3 years ago, you’d never guess I’d love front-end development. I used to think front-end
+    development was just about making things look pretty, like arranging layouts and picking colors. Back then, I had no
+    clue what career path to choose, so I explored a bit of everything: backend work, app security, and eventually front-end
+    development.
+    
+    Then came the moment everything changed. I stumbled across a Kevin Powell video on YouTube, and it totally opened my
+    eyes to how amazing front-end development really is. It’s not just about looks—it’s about creating experiences that feel
+    magical and make websites come to life. Tackling browser incompatibilities, addressing user preferences, ensuring
+    accessibility, and finding fallback options when ideas aren’t fully compatible with certain browsers are all part of the
+    challenge. It’s a whole new type of problem-solving, where you have to think about everything. That video set the bar
+    high for what I wanted to achieve in this field.
+    
+    Since then, I’ve become obsessed with full-stack development. I watch conferences and learn as much as I can. I may be
+    just getting started, but I’m super excited to keep growing and, one day, become a wizard at building awesome web
+    experiences!
+</span>
+       
+  </div>
+    
+</div>
+    <div class="section" id="section4">
+ <h2 class="title">
+<svg viewBox="0 0 193 182" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg_stars">
+    <g clip-path="url(#clip0_0_1)">
+        <path
+            d="M96.5 99C96.5 99 100.525 121.687 110.68 131.116C122.036 141.661 149 143 149 143C149 143 122.036 144.339 110.68 154.884C100.525 164.313 96.5 187 96.5 187C96.5 187 92.475 164.313 82.3202 154.884C70.9639 144.339 44 143 44 143C44 143 70.9639 141.661 82.3202 131.116C92.475 121.687 96.5 99 96.5 99Z"
+            fill="#DFDBD7" />
+        <path
+            d="M96.5 11C96.5 11 100.525 33.6867 110.68 43.116C122.036 53.661 149 55 149 55C149 55 122.036 56.339 110.68 66.884C100.525 76.3133 96.5 99 96.5 99C96.5 99 92.475 76.3133 82.3202 66.884C70.9639 56.339 44 55 44 55C44 55 70.9639 53.661 82.3202 43.116C92.475 33.6867 96.5 11 96.5 11Z"
+            fill="#DFDBD7" />
+        <path
+            d="M148.5 55C148.5 55 152.525 77.6867 162.68 87.116C174.036 97.661 201 99 201 99C201 99 174.036 100.339 162.68 110.884C152.525 120.313 148.5 143 148.5 143C148.5 143 144.475 120.313 134.32 110.884C122.964 100.339 96 99 96 99C96 99 122.964 97.661 134.32 87.116C144.475 77.6867 148.5 55 148.5 55Z"
+            fill="#DFDBD7" />
+        <path
+            d="M47.5 49C47.5 49 51.1416 74.5225 60.3293 85.1305C70.604 96.9936 95 98.5 95 98.5C95 98.5 70.604 100.006 60.3293 111.869C51.1416 122.477 47.5 148 47.5 148C47.5 148 43.8584 122.477 34.6707 111.869C24.396 100.006 0 98.5 0 98.5C0 98.5 24.396 96.9936 34.6707 85.1305C43.8584 74.5225 47.5 49 47.5 49Z"
+            fill="#DFDBD7" />
+    </g>
+    <defs>
+        <clipPath id="clip0_0_1">
+            <rect width="193" height="182" fill="none" />
+        </clipPath>
+    </defs>
+</svg>
+<span class="MySkills">MY SKILLS</span>
+ </h2>
+ <div class="to_be_bigger">
+    I’m a junior software engineer who loves learning from insightful free resources. I’ve taken 46 courses on
+    OpenClassroom, exploring development, and cybersecurity I also enjoy learning from Medium articles, CSS-Tricks, and
+    YouTube videos. Even though I don’t have formal certificates, I’m passionate about continuously expanding my knowledge
+    through these platforms.
+ </div>
+ <div class="preffered_sk">
+    <h3>Preffered :</h3>
+<div class="skills">
+    <ul style=" display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;" class="list_preffered_techno">
+    <li><span>React</span></li>
+ <li><span>Advanced Css3</span></li>
+    <li><span>JavaScript</span></li>
+    <li><span>Html5</span></li>
+    <li><span>Java</span></li>
+    <li><span>Spring Boot</span></li>
+    <li><span>Spring Security </span></li>
+    </ul>
+</div>
+
+ </div>
+
+
+    </div>
+    <div class="section" id="section5">
+    <h2 class="title">
+    <svg viewBox="0 0 193 182" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg_stars">
+        <g clip-path="url(#clip0_0_1)">
+            <path
+                d="M96.5 99C96.5 99 100.525 121.687 110.68 131.116C122.036 141.661 149 143 149 143C149 143 122.036 144.339 110.68 154.884C100.525 164.313 96.5 187 96.5 187C96.5 187 92.475 164.313 82.3202 154.884C70.9639 144.339 44 143 44 143C44 143 70.9639 141.661 82.3202 131.116C92.475 121.687 96.5 99 96.5 99Z"
+                fill="#DFDBD7" />
+            <path
+                d="M96.5 11C96.5 11 100.525 33.6867 110.68 43.116C122.036 53.661 149 55 149 55C149 55 122.036 56.339 110.68 66.884C100.525 76.3133 96.5 99 96.5 99C96.5 99 92.475 76.3133 82.3202 66.884C70.9639 56.339 44 55 44 55C44 55 70.9639 53.661 82.3202 43.116C92.475 33.6867 96.5 11 96.5 11Z"
+                fill="#DFDBD7" />
+            <path
+                d="M148.5 55C148.5 55 152.525 77.6867 162.68 87.116C174.036 97.661 201 99 201 99C201 99 174.036 100.339 162.68 110.884C152.525 120.313 148.5 143 148.5 143C148.5 143 144.475 120.313 134.32 110.884C122.964 100.339 96 99 96 99C96 99 122.964 97.661 134.32 87.116C144.475 77.6867 148.5 55 148.5 55Z"
+                fill="#DFDBD7" />
+            <path
+                d="M47.5 49C47.5 49 51.1416 74.5225 60.3293 85.1305C70.604 96.9936 95 98.5 95 98.5C95 98.5 70.604 100.006 60.3293 111.869C51.1416 122.477 47.5 148 47.5 148C47.5 148 43.8584 122.477 34.6707 111.869C24.396 100.006 0 98.5 0 98.5C0 98.5 24.396 96.9936 34.6707 85.1305C43.8584 74.5225 47.5 49 47.5 49Z"
+                fill="#DFDBD7" />
+        </g>
+        <defs>
+            <clipPath id="clip0_0_1">
+                <rect width="193" height="182" fill="none" />
+            </clipPath>
+        </defs>
+    </svg>
+        SELECTED WORKS
+    </h2>
+    <div class="projects" id="works">
+        <div class="digital_lab">
+            <div class="info_work">
+                <div class="Project_type" style="color:#908f8c;">WEBSITE</div>
+                <h1 class="Project_name">Digital Lab Guide</h1>
+                <div class="Project_Description">
+                    Digital Guide for Medical Experiments: Enhancing Student Collaboration and Laboratory Precision with Voice
+                    Commands.
+                </div>
+                <div style="color:#908f8c;font-size: 0.9rem;">
+                    Full Stack Developer | Faculty of Medicine and Pharmacy of Tangier
+                    <br>
+                    Technologies: React.js 18, Spring Boot 3.4.0, Spring Security, REST API, UI/UX Design.
+                    <br>
+                    Responsibilities:
+                   <ul>
+                    <li>
+                        Developed a Digital Guide with a responsive React.js interface and RESTful APIs using Spring Boot.
+                    </li>
+                    
+                    <li>
+                        Implemented Spring Security for authentication and authorization.
+                    </li>
+                   
+                   <li>
+                    Optimized performance with image compression and lazy loading.
+                   </li>
+                    
+                    <li>
+                        Designed accessible, user-friendly UI/UX for diverse devices.
+                    </li>
+                    
+            </ul>
+            
+                </div>
+            </div>
+            <div class="project_demo" >
+                <img src="video_works/digital_lab_centered.gif" loading="lazy" alt="video demo" class="digital_lab_demo" 
+              
+                >
+            </div >
+
+       
+
+     
+
+
+        </div>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br><br><br>
+        <div class="chat_service">
+            <div class="info_work">
+                <div class="Project_type" style="color:#908f8c;">WEBSITE</div>
+                <h1 class="Project_name">Microservices Application for Professionals</h1>
+                <div class="Project_Description">
+            As part of a team, I developed a real-time chat service for a microservices-based app that also includes meeting
+            scheduling...
+                </div>
+                <div style="color:#908f8c;font-size: 0.9rem;">
+                    Full Stack Developer | ENSA of Tangier
+                    <br>
+                Technologies: Spring Boot 3.4, React v17, Microservices, UI/UX Design
+                    <br>
+                    Responsibilities:
+                    <ul>
+                    <li>
+            Built a messaging service (back-end with Spring Boot , front-end with React , Network programming Web Socket).
+                    </li>
+                    <li>
+                Managed real-time messaging and ensured data security.
+                    </li>
+                    <li>
+                        Designed an intuitive UI for smooth communication.
+                    </li>
+                    
+                    <li>
+                        Integrated the service into a microservices architecture for seamless interaction with other modules.
+                    </li>
+                    
+        
+        </ul>
+                </div>
+            </div>
+            <div class="project_demo">
+                <img src="video_works/chat_demo_centered.gif" loading="lazy" alt="video demo" class="digital_lab_demo" >
+            </div>
+        
+        
+        
+        
+        </div>
+       
+
+    </div>
+    </div>
+    <div class="section" id="section6" >
+        <h2 class="title">
+            <svg viewBox="0 0 193 182" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg_stars">
+                <g clip-path="url(#clip0_0_1)">
+                    <path
+                        d="M96.5 99C96.5 99 100.525 121.687 110.68 131.116C122.036 141.661 149 143 149 143C149 143 122.036 144.339 110.68 154.884C100.525 164.313 96.5 187 96.5 187C96.5 187 92.475 164.313 82.3202 154.884C70.9639 144.339 44 143 44 143C44 143 70.9639 141.661 82.3202 131.116C92.475 121.687 96.5 99 96.5 99Z"
+                        fill="#DFDBD7" />
+                    <path
+                        d="M96.5 11C96.5 11 100.525 33.6867 110.68 43.116C122.036 53.661 149 55 149 55C149 55 122.036 56.339 110.68 66.884C100.525 76.3133 96.5 99 96.5 99C96.5 99 92.475 76.3133 82.3202 66.884C70.9639 56.339 44 55 44 55C44 55 70.9639 53.661 82.3202 43.116C92.475 33.6867 96.5 11 96.5 11Z"
+                        fill="#DFDBD7" />
+                    <path
+                        d="M148.5 55C148.5 55 152.525 77.6867 162.68 87.116C174.036 97.661 201 99 201 99C201 99 174.036 100.339 162.68 110.884C152.525 120.313 148.5 143 148.5 143C148.5 143 144.475 120.313 134.32 110.884C122.964 100.339 96 99 96 99C96 99 122.964 97.661 134.32 87.116C144.475 77.6867 148.5 55 148.5 55Z"
+                        fill="#DFDBD7" />
+                    <path
+                        d="M47.5 49C47.5 49 51.1416 74.5225 60.3293 85.1305C70.604 96.9936 95 98.5 95 98.5C95 98.5 70.604 100.006 60.3293 111.869C51.1416 122.477 47.5 148 47.5 148C47.5 148 43.8584 122.477 34.6707 111.869C24.396 100.006 0 98.5 0 98.5C0 98.5 24.396 96.9936 34.6707 85.1305C43.8584 74.5225 47.5 49 47.5 49Z"
+                        fill="#DFDBD7" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_0_1">
+                        <rect width="193" height="182" fill="none" />
+                    </clipPath>
+                </defs>
+            </svg>
+            CODE PEN WORK</h2>
+    <div class="code_pen_works" id="PENWORKS">
+        <!-- Video 1 -->
+        <a href="https://codepen.io/karima-hamdan/pen/NWQLmyW" target="_blank" class="work-link">
+            <div class="video-mask work">
+                <video autoplay muted loop>
+                    <source src="video_works/Design sans titre (2).mp4" type="video/mp4" loading="lazy">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </a>
+    
+        <!-- Image 1 -->
+        <a href="https://codepen.io/karima-hamdan/pen/yLdeQMz" target="_blank" class="work-link">
+            <img src="images/image (1).png" alt="CodePen work: CSS blend mode" class="work" loading="lazy">
+        </a>
+    
+        <!-- Video 2 -->
+        <a href="https://codepen.io/karima-hamdan/pen/YzmNYKK" target="_blank" class="work-link">
+            <div class="video-mask work">
+                <video autoplay muted loop>
+                    <source src="video_works/3D_rotating_cube_ground_gradient.mp4" type="video/mp4" loading="lazy">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </a>
+    
+        <!-- Image 2 -->
+        <a href="https://codepen.io/karima-hamdan/pen/rNXoQwr" target="_blank" class="work-link">
+            <img src="images/the_pen_hack.jpg" alt="3D in CSS" class="work" loading="lazy">
+        </a>
+    
+        <!-- Image 3 -->
+        <a href="https://codepen.io/karima-hamdan/pen/yLmREdj?editors=1001" target="_blank" class="work-link">
+            <img src="images/parallax.jpg" alt="Parallax Example" class="work" loading="lazy">
+        </a>
+    
+        <!-- Image 4 -->
+        <a href="https://codepen.io/karima-hamdan/pen/mybJOwz" target="_blank" class="work-link">
+            <img src="images/freds.jpg" alt="Freds Example" class="work" loading="lazy">
+        </a>
+    
+        <!-- Image 5 -->
+        <a href="https://codepen.io/karima-hamdan/pen/WbevGKY" target="_blank" class="work-link">
+            <img src="images/bike.jpg" alt="Bike Example" class="work" loading="lazy">
+        </a>
+    </div>
+
+    </div>
+    <div class="section" id="final_section" style="font-family: Arial,sans-serif;">
+        <div class="final_section_pen">
+        <div class="pen_nomotion">
+        
+        
+            <img src="images/pen_cover.png" alt="" class="pen_cover_nomotion" loading="lazy" >
+        
+        
+            <img src="images/pen_body.png"
+                alt="" class="pen_inner_nomotion" loading="lazy" >
+        </div>
+
+        <div class="connect" id="contact">
+            <h2>Let’s Build Something Together</h2>
+            <p>
+                Feel free to reach out if you want to trust a junior full-stack developer, or have a question or an advice,
+                you’re very welcome.
+            </p>
+            <p class="email">karimahamdan188@gmail.com</p>
+        </div>
+
+        </div>
+        <footer>
+            <p>This website was fully designed and developped from scratch by <span style="text-decoration: underline;">Karima
+                    hamdan ❤</span> ,the pen hack inspired from louie sellers portfolio</p>
+        </footer>
+    </div>
+
+        
+    </div>
+    <script src="index.js">
+
+    </script>
+</body>
+</html>
