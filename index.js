@@ -77,7 +77,7 @@ pin: true,
 pinSpacing:true,
   scrub: 1,
   invalidateOnRefresh: true,
-  markers:true
+  // markers:true
 
 });
 
@@ -113,7 +113,7 @@ gsap.to('#section5',{
     start:'82% top',
     end: '+=1700',
     scrub:true,
-    markers:true
+    // markers:true
   }
 });
 
@@ -126,7 +126,7 @@ gsap.to('#section3',{
     start:'center top',
 end: '+=500',
     scrub:true,
-    markers:true
+    // markers:true
   }
 });
 
